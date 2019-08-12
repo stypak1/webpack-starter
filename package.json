@@ -54,7 +54,6 @@
     "yargs": "^13.2.2"
   },
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "lodash": "^4.17.11"
+    "babel-polyfill": "^6.26.0"
   }
 }
