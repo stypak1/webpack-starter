@@ -31,6 +31,7 @@ const config = {
       test: /\.scss$/,
       exclude: /node_modules/,
       use: [
+        // to load css in js use only 'style-loader' without MiniCssExtractPlugin.loader
         isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
         'css-loader',
         {
